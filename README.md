@@ -1,39 +1,47 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+School of Rock is a website dedicated to promoting music education and celebrating the power of rock music. This README.md provides an overview of the project and instructions for running it locally.
 
-Welcome,
+Project Description
+The School of Rock website is designed to provide information about the various music classes offered, The website aims to inspire and engage visitors with its dynamic design, compelling content, and emphasis on the transformative power of music education.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The School of Rock website provides a user-friendly interface for visitors to explore the school's offerings. Here are the main sections of the website:
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+Home: The landing page introduces the School of Rock and highlights different content blocks:
 
-## Codeanywhere Reminders
+    About: This section provides detailed information about the school's history.
+    Guitar: Information about Guitar classes
+    DRums: Information about Guitar classes
+    Sing: Information about singing classes
+    Contact: Find contact information for the school, including address, phone number, and email, to inquire about enrollment or ask questions.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+Technologies
+The School of Rock website is built using the following technologies:
 
-`python3 -m http.server`
+HTML5: Provides the structure and markup of the web pages.
+CSS3: Handles the styling and visual presentation of the website.
+FontAwesome: Used for icons and graphical elements.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Testing:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+I tested the page in different browsers: Chrome, Mozila and Safari, works well.
+Also confirme that the project is resposive, looks good on all standard screen sizes using the devtools on Chrome.
+All the anchor links are working properly
 
-`http_server`
+Validator testing
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+HTML - ok
+CSS - ok
+Accessibility - 93 score
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Unfixed bugs - none
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Credits:
 
-To log into the Heroku toolbelt CLI:
+The code to male the social media links was taken from the CI Love RUnning Project.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Media
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+The images were taken from:
+https://unsplash.com/photos/jdLgTBOgzYM
+https://unsplash.com/photos/mhTqntyBPig
+https://unsplash.com/photos/ASKeuOZqhYU
+https://unsplash.com/photos/xHow2lkVRCs
