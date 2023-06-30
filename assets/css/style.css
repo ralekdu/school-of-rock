@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Rock+Salt&display=swap');
 
 * {
-    margin: 0;
+    margin: 1%;
     padding: 0;
     border: none;
     background-color: black;
@@ -22,7 +22,7 @@
     color: white;
     display: inline-block;
     margin-left: 12%;
-    margin-top: 20px;
+    margin-top: 1%;
 
 }
 
@@ -62,7 +62,7 @@
     font-size: 110%;
     width: 45%;
     float: right;
-    padding-right: 50px;
+
     font-family: Barlow Semi Condensed, sans-serif;
     font-size: 150%;
     text-align: left;
@@ -98,7 +98,7 @@
     font-size: 110%;
     width: 45%;
     float: left;
-    padding-left: 50px;
+
     font-family: Barlow Semi Condensed, sans-serif;
     font-size: 150%;
 
@@ -116,27 +116,13 @@ hr {
     font-size: 150%;
 }
 
-/* code from https: //blog.hubspot.com/website/how-to-embed-google-map-in-html */
-
-.google-map {
-    padding-bottom: 50%;
-    position: relative;
-}
-
-.google-map iframe {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-}
 
 #about-txt,
 #contact-txt {
     color: white;
     font-size: 110%;
     width: 60%;
-    padding-left: 150px;
+
     font-family: Barlow Semi Condensed, sans-serif;
     font-size: 150%;
     text-align: left;
@@ -150,7 +136,7 @@ hr {
 
     #top-menu li {
         display: inline-block;
-        margin-left: 10%;
+        margin-left: 6%;
         margin-top: 20px;
     }
 
@@ -159,7 +145,7 @@ hr {
     #drums-image,
     #sing-image {
         width: 45%;
-        height: 700px;
+        height: 500px;
         margin: 0 auto;
     }
 
@@ -168,11 +154,69 @@ hr {
     #drums-txt,
     #sing-txt {
         width: 40%;
-        height: 700px;
+        height: 500px;
     }
 
     hr {
         display: none;
     }
 
+}
+
+@media screen and (max-width: 950px) {
+
+    #logo {
+        font-size: 200%;
+    }
+
+    #top-menu li {
+        display: inline-block;
+
+        margin-left: 1%;
+        margin-top: 10px;
+
+    }
+
+    #hero-image,
+    #guitar-image,
+    #drums-image,
+    #sing-image {
+
+        float: left;
+        width: 90%;
+        height: 300px;
+        margin: 35px;
+
+    }
+
+    #hero-txt,
+    #guitar-txt,
+    #drums-txt,
+    #sing-txt,
+    #contact-txt,
+    #about-txt {
+        width: 85%;
+        height: 600px;
+        float: left;
+        margin: 35px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    /* code from https: //blog.hubspot.com/website/how-to-embed-google-map-in-html */
+
+    .google-map {
+        padding-bottom: 50%;
+        position: relative;
+    }
+
+    .google-map iframe {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+    }
 }
