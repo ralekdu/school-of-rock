@@ -131,7 +131,8 @@ hr {
     position: absolute;
 }
 
-#about-txt {
+#about-txt,
+#contact-txt {
     color: white;
     font-size: 110%;
     width: 60%;
