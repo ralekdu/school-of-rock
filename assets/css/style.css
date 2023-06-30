@@ -115,3 +115,32 @@ hr {
     color: gold;
     font-size: 150%;
 }
+
+/* code from https: //blog.hubspot.com/website/how-to-embed-google-map-in-html */
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+#about-txt {
+    color: white;
+    font-size: 110%;
+    width: 60%;
+    padding-left: 150px;
+    font-family: Barlow Semi Condensed, sans-serif;
+    font-size: 150%;
+    text-align: left;
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 20px;
+
+}
