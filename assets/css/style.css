@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Rock+Salt&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
     background-color: black;
+
 }
 
 #logo {
@@ -20,11 +21,97 @@
     font-size: 100%;
     color: white;
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 12%;
+    margin-top: 20px;
 
 }
 
 #top-menu a {
     text-decoration: none;
     color: inherit;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 500px;
+    width: 50%;
+    background: url('../images/kidsband.jpg') repeat center center;
+    background-size: cover;
+    float: left;
+
+}
+
+#drums-image {
+    height: 500px;
+    width: 50%;
+    background: url('../images/drums.jpg') repeat center center;
+    background-size: cover;
+    float: left;
+
+}
+
+#hero,
+#drums {
+    margin-top: 70px;
+}
+
+#hero-txt,
+#drums-txt {
+    color: white;
+    font-size: 110%;
+    width: 45%;
+    float: right;
+    padding-right: 50px;
+    font-family: Barlow Semi Condensed, sans-serif;
+    font-size: 150%;
+    text-align: left;
+
+}
+
+#guitar,
+#sing {
+    padding-top: 50px;
+}
+
+#guitar-image {
+    height: 500px;
+    width: 50%;
+    background: url('../images/guitar.jpg') repeat center center;
+    background-size: cover;
+    float: right;
+
+}
+
+#sing-image {
+    height: 500px;
+    width: 50%;
+    background: url('../images/sing.jpg') repeat center center;
+    background-size: cover;
+    float: right;
+
+}
+
+#guitar-txt,
+#sing-txt {
+    color: white;
+    font-size: 110%;
+    width: 45%;
+    float: left;
+    padding-left: 50px;
+    font-family: Barlow Semi Condensed, sans-serif;
+    font-size: 150%;
+
+}
+
+
+hr {
+    border-top: 1px solid white;
+    width: 100%;
+    margin: 15px;
+}
+
+.topic {
+    color: gold;
+    font-size: 150%;
 }
