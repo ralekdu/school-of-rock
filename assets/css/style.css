@@ -145,3 +145,34 @@ hr {
     margin-top: 20px;
 
 }
+
+@Media screen and (max-width: 1200px) {
+
+    #top-menu li {
+        display: inline-block;
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    #hero-image,
+    #guitar-image,
+    #drums-image,
+    #sing-image {
+        width: 45%;
+        height: 700px;
+        margin: 0 auto;
+    }
+
+    #hero-txt,
+    #guitar-txt,
+    #drums-txt,
+    #sing-txt {
+        width: 40%;
+        height: 700px;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
